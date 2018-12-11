@@ -1,0 +1,11 @@
+<project name="dmarc-report-parser">
+
+  <target name="lint">
+    <echo>Linting...</echo>
+    <exec executable="perlcritic" failonerror="true">
+      <arg line="--nocolor src" />
+    </exec>
+    <echo>Linting... Done</echo>
+  </target>
+
+</project>
